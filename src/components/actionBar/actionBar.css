@@ -1,0 +1,11 @@
+.left{
+    margin-left: 2%;
+    margin-top: 2%;
+    float: left;
+}
+
+.right{
+    margin-right: 2%;
+    margin-top: 2%;
+    float: right;
+}
