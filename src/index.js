@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import configureStore from "./redux/reducers/configureStore";
 import "bootstrap/dist/css/bootstrap.css"
-
+import "alertifyjs/build/css/alertify.min.css"
 const store = configureStore();
 
 ReactDOM.render(

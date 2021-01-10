@@ -7,7 +7,7 @@ export default class ActionBar extends Component {
 
             <nav className="navbar navbar-light bg-light">
                 <div className="container-fluid">
-                <Link to="/"><button type="button" className="btn btn-warning left">todos</button></Link>
+                <Link to="/to-do-list"><button type="button" className="btn btn-warning left">todos</button></Link>
                 <Link to="/newtodo"><button type="button" className="btn btn-warning right">new</button></Link>
             </div>
             </nav>

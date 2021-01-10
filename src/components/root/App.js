@@ -11,7 +11,7 @@ function App() {
      
       <div className="get-center">
         <Switch>
-          <Route path="/" exact component={TodoList}></Route>
+          <Route path="/to-do-list" exact component={TodoList}></Route>
           <Route path="/newtodo" exact component={CreateTodo}></Route>
         </Switch>
       </div>

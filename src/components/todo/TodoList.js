@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import * as todoActions from "../../redux/actions/todoActions"
-
+import alertify from "alertifyjs"
 class TodoList extends Component {
 
     componentDidMount() {
@@ -17,6 +17,7 @@ class TodoList extends Component {
         
         e.target.parentElement.parentElement.remove();
         
+        alertify.success("todo removed successfully")
     }
     render() {
 
